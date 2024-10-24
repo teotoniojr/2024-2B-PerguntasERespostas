@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Danfo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-destaque: "Danfo", serif;
+    --fonte-texto: "Arima", serif;
+    --cor1: #ffa69eff;
+    --cor2: #faf3ddff;
+    --cor3: #b8f2e6ff;
+    --cor4: #aed9e0ff;
+    --cor5: #5e6472ff;
+    --cor6: #000000;
+}
+
+body{
+    background-color: var(--cor2);
+    font-family: var(--fonte-texto);
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor1);
+    padding: 1em;
+}
+
+footer p{
+    font-size: 1.2rem;
+    color: var(--cor6);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor5);
+}
