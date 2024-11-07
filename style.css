@@ -31,7 +31,7 @@ body{
 
 .cartao{
     margin: 1rem;
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
